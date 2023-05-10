@@ -16,7 +16,7 @@ developmentChains.includes(network.name) &&
       let chainId: number
 
       beforeEach(async function () {
-         await deployments.fixture(['all'])
+         await deployments.fixture(['mocks', 'raffle'])
          signers = await ethers.getSigners()
          player = signers[1]
          const raffleContract: Raffle = await ethers.getContract('Raffle')

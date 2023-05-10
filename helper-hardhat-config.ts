@@ -41,3 +41,6 @@ export const networkConfig: NetworkConfigInfo = {
 
 export const developmentChains = ['hardhat', 'localhost']
 export const VERIFICATION_BLOCK_CONFIRMATIONS = 6
+export const frontEndContractAddressesFilePath =
+   '../frontend/constants/addresses.json'
+export const frontEndContractAbiFilePath = '../frontend/constants/abi.json'
